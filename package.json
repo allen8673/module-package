@@ -1,18 +1,16 @@
 {
-  "name": "mrs-module-2",
-  "version": "1.0.4",
-  "description": "common module ",
+  "name": "module-package",
+  "version": "1.0.0",
+  "description": "common module",
   "publishConfig": {
     "access": "public"
   },
   "main": "package/index.js",
   "scripts": {
     "package": "babel src/components/ --out-dir package/",
-    "dist": "npm run clean && webpack --mode production --config webpack.config.js",
-    "webpacket": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "MR0S",
+  "author": "Allen",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.5.5",
